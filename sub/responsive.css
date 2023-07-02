@@ -525,12 +525,18 @@
   section.popular_area {
     width: 100%;
     margin-bottom: 0;
-    padding: 40px 20px;
+    padding: 40px 0;
   }
+  section.popular_area .section_hd,
+  .popular_area_list {
+    padding: 0 20px;
+  }
+
   .popular_area_tab {
     margin-bottom: 15px;
     display: flex;
     overflow-x: auto;
+    padding: 0 20px;
   }
   .popular_area_tab::-webkit-scrollbar {
     display: none;
@@ -539,7 +545,6 @@
     font-size: 0.9rem;
     min-width: fit-content;
   }
-
   .popular_area_list ul li {
     width: 50%;
   }
