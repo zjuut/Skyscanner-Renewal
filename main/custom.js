@@ -139,9 +139,10 @@ $(function(){
       $('body').css('overflow','auto');
     })
     
-    /* SearchBox */
     $('.m_searchbox_up').click(function(){
-      $(window).scrollTop(600);
+      var boxT = $('.searchbox').offset().top;
+      var hdH = $('header').height();
+      $('html, body').scrollTop(boxT-hdH+16);
     })
   }
 })
