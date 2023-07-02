@@ -1,0 +1,728 @@
+@media screen and (max-width: 768px) {
+  /* Common */
+  h4 {
+    font-size: 1.1rem;
+  }
+  h4 span {
+    font-size: 0.9rem;
+  }
+
+  /* Header */
+  header {
+    padding: 0 20px;
+    box-shadow: none;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  header.fixed {
+    background-color: #fff;
+  }
+  .hd_inner {
+    width: 100%;
+    height: 55px;
+  }
+
+  .hd_left_wr .logo a {
+    width: 140px;
+  }
+  .hd_left_wr .gnb {
+    display: none;
+  }
+
+  .hd_right_wr button {
+    color: #222;
+    padding: 0;
+    margin-left: 15px;
+  }
+  .hd_right_wr button i {
+    font-size: 1.3rem;
+    transform: translateY(1px);
+  }
+  .hd_right_wr .signin span {
+    display: none;
+  }
+  .hd_right_wr .m_menu_btn {
+    display: block;
+  }
+  .hd_right_wr .m_menu_btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #222;
+    transform: translateY(-1px);
+  }
+  .hd_right_wr .m_menu_btn span:nth-child(1) {
+    transform: translateY(-6px);
+  }
+  .hd_right_wr .m_menu_btn span:nth-child(3) {
+    transform: translateY(4px);
+  }
+
+  /* Section : Main */
+  section.main {
+  margin-bottom: 0;
+  background: #f5f7fa;
+  }
+  section.main .inner {
+    height: auto;
+    background: none;
+    padding: 90px 20px 0 20px;
+  }
+  .bg_gradient_layer {
+    display: none;
+  }
+  .main_search {
+    width: 100%;
+    position: unset;
+    transform: none;
+  }
+  .main_title {
+    display: none;
+  }
+
+  /* Section : Main : SearchBox RouteType */
+  .searchbox_routetype {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .searchbox_routetype label {
+    flex: 1;
+    height: 40px;
+    font-size: 1.1rem;
+    line-height: 40px;
+    margin-right: 0;
+  }
+  .searchbox_routetype label.active {
+    background-color: #0770e3;
+    color: #fff;
+    border-radius: 50px;
+  }
+  .searchbox_routetype input + em,
+  .searchbox_routetype input:checked + em {
+  display: none;
+}
+
+  /* Section : Main : SearchBox SearchBox Setting */
+  .searchbox_setting {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .searchbox_setting .roundtrip,
+  .searchbox_setting .oneway,
+  .searchbox_setting .multi {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .searchbox_setting input,
+  .searchbox_search input {
+    font-size: 1.1rem;
+  }
+  .searchbox_setting .set_box {
+    width: 100%;
+    height: 55px;
+    box-shadow: none;
+  }
+  .searchbox_setting .set_box:before {
+    line-height: 55px;
+  }
+  .searchbox_setting .area:before {
+    display: none;
+  }
+  .searchbox_setting .date:before {
+    font-size: 1.1rem;
+  }
+  .searchbox_setting .user:before {
+    font-size: 1rem;
+  }
+  .searchbox_setting .area {
+    height: 80px;
+    margin-bottom: 0;
+  }
+  .searchbox_setting .area input::placeholder {
+    text-align: center;
+  }
+  .searchbox_setting .area input::placeholder,
+  .searchbox_setting .date input {
+    font-size: 1.05rem;
+  }
+  .searchbox_setting .area .leave {
+    margin: 0;
+    padding: 0 15px 0 20px;
+  }
+  .searchbox_setting .area .arrive {
+    margin: 0;
+    padding: 0 20px 0 15px;
+  }
+  .searchbox_setting .area .reverse {
+    transform: translateY(20px);
+  }
+  .searchbox_setting .multi {
+    gap: 0;
+  }
+  .searchbox_setting .multi_set {
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 20px;
+    margin-bottom: 5px;
+  }
+  .searchbox_setting .multi_set .area {
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  .searchbox_setting .multi_set .area .leave {
+    padding: 0 15px 0 10px;
+  }
+  .searchbox_setting .multi_set .area .arrive {
+    padding: 0 10px 0 15px;
+  }
+  .searchbox_setting .multi_set .date {
+    width: calc(100% - 55px);
+  }
+  .searchbox_setting .multi_set .date:before {
+    margin-left: 5px;
+  }
+  .searchbox_setting .multi_set .minus_btn {
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+    font-size: 1.3rem;
+    margin-top: 7px;
+  }
+  .searchbox_setting .multi .plus_btn {
+    width: 100%;
+    height: 55px;
+    background: none;
+    box-shadow: none;
+    border: 1px dashed rgba(153, 153, 153, 0.5);
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  .searchbox_setting .multi .plus_btn i {
+    margin-right: 6px;
+  }
+  .searchbox_setting .multi .user {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Section : Main : SearchBox Area Type */
+  .searchbox_areatype label {
+    font-size: 1rem;
+    margin-right: 6px;
+  }
+  .searchbox_areatype input + em,
+  .searchbox_areatype input:checked + em {
+    margin-right: 4px;
+  }
+
+  /* Section : Main : SearchBox Search */
+  .searchbox_search {
+    margin-top: 30px;
+  }
+  .searchbox_search input {
+    height: 50px;
+    width: 100%;
+    box-shadow: none;
+  }
+  .searchbox_search input:hover {
+    background-color: #0770e3;
+  }
+  
+  /* Section : Main : Sub */
+  .main_sub_inner {
+    width: 100%;
+    margin: 50px 0 0 0;
+    background-color: #fff;
+    border-radius: 18px 18px 0 0;
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+  .main_desc {
+    justify-content: start;
+    padding: 15px 20px;
+  }
+  .main_desc:not(:last-child) {
+    border-bottom: 1px solid #e9e9e9;
+  }
+  .main_desc img {
+    width: 45px;
+    height: 45px;
+    margin-top: 1px;
+  }
+  .main_desc:nth-child(2) img {
+    margin-top: -2px;
+  }  
+  .main_desc p {
+    font-size: 0.9rem;
+    color: #7e7e7e;
+  }
+
+  /* Section Heading Common */
+  .section_hd {
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+  .section_hd .title {
+    width: 100%;
+    justify-content: space-between;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 a {
+    font-weight: 500;
+  }
+  h3 a:after {
+    display: none;
+  }
+  .section_hd .control {
+    display: none;
+  }
+
+  /* Section : Plane Common */
+  section.plane_seoul,
+  section.plane_jeju {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  section.plane_seoul {
+    padding: 50px 0 40px 0;
+  }
+  section.plane_jeju {
+    padding: 40px 0 60px 0;
+  }
+  section.plane_seoul .section_hd,
+  section.plane_jeju .section_hd {
+    padding: 0 20px;
+  }
+  .plane_items {
+    width: 100%;
+    gap: 6px ;
+    padding: 0 20px;
+    overflow-x: auto;
+  }
+  .plane_items::-webkit-scrollbar {
+    display: none;
+  }
+  .plane_items:hover {
+    height: auto;
+  }
+  .plane_items .item a {
+    width: 326px;
+    height: 320px;
+  }
+  .plane_item_area {
+    margin: 12px 0;
+  }
+  .plane_item_desc {
+    margin-left: 0;
+    padding: 0 15px;
+  }
+  .plane_item_desc > div {
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+  }
+  .plane_item_desc > div:before {
+    margin-right: 7px;
+  }
+  .plane_item_desc .airport:before {
+    font-size: 1.1rem;
+  }
+  .plane_item_price {
+    background-color: transparent;
+  }
+  .plane_item_price div {
+    font-size: 1.05rem;
+    margin: 4px 0;
+  }
+  .plane_item_price span {
+    width: 180px;
+    height: 2px;
+  }
+  
+  .plane_items .jejuair_logo {
+    height: 22px;
+    transform: translateY(1px);
+    margin-left: -3px;
+  }
+  .plane_items .jinair_logo {
+    height: 20px;
+    margin-right: 3px;
+    transform: translateY(2px);
+  }
+  .plane_items .tway_logo {
+    height: 14px;
+    margin: 0 3px 0 2px;
+    transform: translateY(5px);  
+  }
+  .plane_items .mu_logo {
+    height: 19px;
+    margin-right: 3px;
+    transform: translateY(3px);
+  }
+
+  /* Section : plane_desc_wr */
+  section.plane_desc_wr {
+    margin-bottom: 0;
+    padding: 15px 20px;
+  }
+  section.plane_desc_wr .inner {
+    width: 100%;
+    flex-direction: column;
+  }
+  .plane_desc {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    padding: 15px 20px;
+  }
+  .plane_desc:not(:last-child) {
+    border-bottom: 1px solid #e9e9e9;
+  }
+  .plane_desc img {
+    width: 55px;
+    margin: 0 20px 0 0;
+  }
+  .plane_desc:nth-child(2) img {
+    transform: translateY(-2px);
+  }
+  .plane_desc p {
+    display: none;
+  }
+
+  /* Section : Info */
+  section.info {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 60px 20px 40px 20px;
+  }
+  section.info .inner {
+    flex-direction: column;
+  }
+  .info_email,
+  .info_email_desc {
+    border: none;
+    padding: 0;
+  }
+
+  .info_email {
+    padding-bottom: 40px;
+    margin-right: 0;
+    background: none;
+  }
+  .info_section_hd p {
+    margin-top: 5px;
+    padding-left: 0;
+    font-size: 0.9rem;
+  }
+  .email_form {
+    margin: 0;
+    margin-top: 15px;
+    gap: 2px;
+    width: 100%;
+  }
+  .email_form input {
+    height: 55px;
+    font-size: 0.95rem;
+  }
+  .email_form input[type=email] {
+    padding-left: 12px;
+    font-size: 1rem;
+  }
+  .email_form input[type=email]::placeholder {
+    font-size: 0.95rem;
+    transform: translateY(0);
+  }
+  .email_form input[type=submit]:hover {
+    background-color: #0770e3;
+  }
+  .email_privacy {
+    font-size: 0.9rem;
+    line-height: 1.5em;
+    padding-left: 0;
+    margin-top: 7px;
+  }
+  .email_privacy span:hover {
+    text-decoration: none;
+    color: #0770e3;
+  }
+
+  .info_email_desc {
+    background: #f5f7fa;
+    padding: 10px 20px;
+  }
+  .info_email_desc .info_section_hd {
+    display: none;
+  }
+  .email_desc_wr {
+    margin-top: 0;
+    padding: 10px 0;
+  }
+  .email_desc_wr:first-child {
+    padding-bottom: 20px;
+  }
+  .email_desc_wr img {
+    scale: 1;
+  }
+  .email_desc_wr .email_desc .title {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .email_desc_wr .email_desc .content {
+    font-size: 0.9rem;
+    line-height: 1.5em;
+  }
+
+
+  /* Section : FAQ */
+  section.faq {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 40px 20px;
+  }
+  .faq_list_title {
+    display: flex;
+    padding: 8px 35px 8px 10px;
+  }
+  .faq_list_title:after {
+    font-size: 1rem;
+    right: 10px;
+    top: calc(50% - 6px);
+  }
+  .faq_list_title i {
+    font-size: 0.95rem;
+    margin-right: 8px;
+    transform: translateY(6px);
+  }
+  .faq_list_title i.fa-calendar {
+    font-size: 1rem;
+    transform: translateY(5px);
+  }
+  .faq_list_title p {
+    font-size: 1rem;
+  }
+  .faq_list_title.active p {
+    font-weight: 500;
+  }
+
+  .faq_list_desc {
+    display: none;
+    padding: 10px 35px 30px 35px;
+  }
+  .faq_list_desc p {
+    font-size: 0.95rem;
+    line-height: 1.5em;
+  }
+  .faq_list_desc p a:hover {
+    text-decoration: none;
+  }  
+
+  /* Section : Popular Area */
+  section.popular_area {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 40px 20px;
+  }
+  .popular_area_tab {
+    margin-bottom: 15px;
+  }
+  .popular_area_tab button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin-right: 0;
+  }
+
+  .popular_area_list ul li {
+    width: 50%;
+  }
+  .popular_area_list ul li a:hover {
+    color: unset;
+  }  
+
+  /* Footer */
+  footer {
+    background-color: #02122c;
+  }
+  .sitemap {
+    width: 100%;
+    border-bottom: 1px solid rgba(233, 233, 233, 0.7);
+  }
+  .sitemap_items {
+    padding: 0;
+  }
+  .sitemap_items .item {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid rgba(233, 233, 233, 0.3);
+  }
+  .sitemap_items .item:first-child,
+  .sitemap_items .item:after {
+    display: none;
+  }
+  .sitemap_items .item a {
+    height: auto;
+    display: inline-block;
+  }
+  .sitemap_items .item a span {
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  .sitemap_items .item a p {
+    display: none;
+  }
+
+  .policy {
+    height: auto;
+    padding: 20px 0 40px;
+  }
+  .policy ul {
+    padding: 0 20px;
+  }
+  .policy ul li,
+  .policy ul li a {
+    font-size: 0.8rem;
+  }
+  .policy ul li a:after {
+    margin: 0 8px 0 10px;
+  }
+  .policy ul li {
+    margin-top: 0;
+  }
+  .policy ul li:last-child {
+    display: block;
+    margin-top: 8px;
+  }
+  .policy ul li:nth-child(4) a:after {
+    display: none;
+  }
+
+  /* Top BTN */
+  .top_btn {
+    right: 20px;
+  }
+  .top_btn.active {
+    bottom: 20px;
+  }
+  .top_btn a {
+    width: 45px;
+    height: 45px;
+  }
+  .top_btn a i {
+    font-size: 1.5rem;
+    line-height: 48px;
+  }  
+
+  /* Language Modal */
+  .language_modal_inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 20px;
+    animation: none;
+  }
+  .language_modal_inner .close_btn {
+    top: 10px;
+    right: 20px;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  .language_modal_inner h2 {
+    transform: translateY(0);
+  }
+  .language_modal_inner .save {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .language_modal_inner input[type=submit] {
+    margin-top: 0;
+    height: 50px;
+  }
+  .language_modal_inner input[type=submit]:hover {
+    background-color: #02122c;
+  }
+
+  /* Menu Modal */
+  .m_menu_modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: none;
+  }
+  .m_menu_modal_inner {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .m_menu_modal_inner .m_close_btn {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 19px;
+  }
+  .m_menu_modal_inner .m_close_btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #fff;
+  }
+  .m_menu_modal_inner .m_close_btn span:nth-child(1) {
+    transform: translateY(2px) rotate(45deg) ;
+  }
+  .m_menu_modal_inner .m_close_btn span:nth-child(2) {
+    transform: rotate(-45deg) ;
+  }
+
+  .m_menu_modal_content {
+    background: #fff;
+    border-radius: 8px 0 0 8px;
+    padding: 15px;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 50%;
+  }
+  .m_menu_modal_content .gnb li a {
+    display: block;
+    padding: 5px 10px;
+    font-size: 1.05rem;
+  }
+  .m_menu_modal_content .menu_line {
+    width: 100%;
+    height: 1px;
+    background-color: #e9e9e9;
+    margin: 12px 0;
+  }
+  .m_menu_modal_content .gnb li a:before {
+    color: #0770e3;
+  }
+  .m_menu_modal_content .gnb li:nth-last-child(2) a,
+  .m_menu_modal_content .gnb li:last-child a {
+    color: #444;
+    font-size: 1rem;
+  }
+  .m_menu_modal_content .gnb li:nth-last-child(2) a:before,
+  .m_menu_modal_content .gnb li:last-child a:before {
+    font-family: fontawesome;
+    margin-right: 8px;
+  }
+  .m_menu_modal_content .gnb li:nth-last-child(2) a:before {
+    content: '\f57e';
+  }
+  .m_menu_modal_content .gnb li:last-child a:before {
+    content: '\f059';
+  }
+
+}
