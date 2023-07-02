@@ -35,10 +35,10 @@ $(function(){
 
   /* Section : FAQ */
   $('.faq_list_title').click(function(){
-    $('.faq_list_title').removeClass('active');
     $(this).toggleClass('active');
-    $('.faq_list_desc').slideUp();
+    $('.faq_list_title').not(this).removeClass('active');
     $(this).siblings().slideToggle();
+    $('.faq_list_desc').not($(this).siblings()).slideUp();
   })
 
   /* Section : Popular Area */ 
@@ -133,6 +133,8 @@ $(function(){
   }
   else if(window.matchMedia('screen and (max-width: 768px)').matches){
     /* Text Change */
+    // Section : Main : Desc
+    $('.main_desc p br').remove()
     // SearchBox
     $('.searchbox_setting .area .leave').attr('placeholder','출발지');
     $('.searchbox_setting .area .arrive').attr('placeholder','도착지');
