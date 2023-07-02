@@ -529,11 +529,15 @@
   }
   .popular_area_tab {
     margin-bottom: 15px;
+    display: flex;
+    overflow-x: auto;
+  }
+  .popular_area_tab::-webkit-scrollbar {
+    display: none;
   }
   .popular_area_tab button {
     font-size: 0.9rem;
-    padding: 8px 12px;
-    margin-right: 0;
+    min-width: fit-content;
   }
 
   .popular_area_list ul li {
