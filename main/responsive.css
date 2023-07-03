@@ -16,7 +16,7 @@
     height: 55px;
   }
   .hd_left_wr .logo a {
-    width: 145px;
+    width: 150px;
   }
   .hd_left_wr .gnb {
     display: none;
@@ -31,7 +31,7 @@
     background-color: transparent;
   }
   .hd_right_wr button i {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     transform: translateY(1px);
   }
   .hd_right_wr .signin span {
@@ -45,13 +45,13 @@
     width: 20px;
     height: 2px;
     background: #fff;
-    transform: translateY(-1px);
+    transform: translateY(1px);
   }
   .hd_right_wr .m_menu_btn span:nth-child(1) {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
   }
   .hd_right_wr .m_menu_btn span:nth-child(3) {
-    transform: translateY(4px);
+    transform: translateY(7px);
   }
 
   /* Header Fixed */
