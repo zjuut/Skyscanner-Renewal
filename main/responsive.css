@@ -16,7 +16,7 @@
     height: 55px;
   }
   .hd_left_wr .logo a {
-    width: 140px;
+    width: 145px;
   }
   .hd_left_wr .gnb {
     display: none;
@@ -31,7 +31,7 @@
     background-color: transparent;
   }
   .hd_right_wr button i {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     transform: translateY(1px);
   }
   .hd_right_wr .signin span {
@@ -152,9 +152,13 @@
   }
   .searchbox_type button i {
     font-size: 1.1rem;
+    transform: translateY(2px);
+  }
+  .searchbox_type .plane i {
+    transform: rotate(25deg) translateY(1px);
   }
   .searchbox_type button span {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .searchbox_type .car i {
     font-size: 1.25rem;
@@ -184,6 +188,7 @@
   }
   .searchbox_setting .area input::placeholder,
   .searchbox_setting .date input {
+    color: #999;
     font-size: 1.05rem;
   }
   .searchbox_setting .area:before {
@@ -255,7 +260,7 @@
     justify-content: space-between;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   h3 a {
     font-weight: 500;
