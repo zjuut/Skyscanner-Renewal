@@ -22,7 +22,7 @@
   }
 
   .hd_left_wr .logo a {
-    width: 140px;
+    width: 150px;
   }
   .hd_left_wr .gnb {
     display: none;
@@ -34,7 +34,7 @@
     margin-left: 15px;
   }
   .hd_right_wr button i {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
     transform: translateY(1px);
   }
   .hd_right_wr .signin span {
@@ -48,13 +48,13 @@
     width: 20px;
     height: 2px;
     background: #222;
-    transform: translateY(-1px);
+    transform: translateY(1px);
   }
   .hd_right_wr .m_menu_btn span:nth-child(1) {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
   }
   .hd_right_wr .m_menu_btn span:nth-child(3) {
-    transform: translateY(4px);
+    transform: translateY(7px);
   }
 
   /* Section : Main */
@@ -89,7 +89,7 @@
   .searchbox_routetype label {
     flex: 1;
     height: 40px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 40px;
     margin-right: 0;
   }
@@ -258,7 +258,6 @@
   }  
   .main_desc p {
     font-size: 0.9rem;
-    color: #7e7e7e;
   }
 
   /* Section Heading Common */
@@ -271,7 +270,7 @@
     justify-content: space-between;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   h3 a {
     font-weight: 500;
