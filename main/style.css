@@ -888,6 +888,7 @@ section.type .inner a p {
   color: #7e7e7e;
   font-size: 15px;
   line-height: 1.6em;
+  word-break: keep-all;
 }
 
 /* Section : Plane */
@@ -1186,6 +1187,7 @@ section.car {
   color: #7e7e7e;
   font-size: 15px;
   line-height: 1.6em;
+  word-break: keep-all;
 }
 .car_items .item a h3 {
   font-size: 14px;
@@ -1227,6 +1229,7 @@ section.info .inner {
   margin-top: 20px;
   color: #7e7e7e;
   padding-left: 2px;
+  word-break: keep-all;
 }
 .email_form {
   margin-top: 40px;
@@ -1293,6 +1296,7 @@ section.info .inner {
   position: relative;
   font-weight: 400;
   padding-bottom: 3px;
+  word-break: keep-all;
 }
 .faq_title a b:after {
   content: '';
