@@ -27,9 +27,6 @@
     padding: 0;
     margin-left: 15px;
   }
-  .hd_right_wr button:hover {
-    background-color: transparent;
-  }
   .hd_right_wr button i {
     font-size: 1.45rem;
     transform: translateY(1px);
@@ -66,9 +63,6 @@
 
   header.fixed .hd_right_wr button {
     color: #222;
-  }
-  header.fixed .hd_right_wr button:hover {
-    background-color: transparent;
   }
   header.fixed .hd_right_wr .m_menu_btn span {
     background: #222;
@@ -294,9 +288,6 @@
     height: 160px;
     width: 160px;
   }
-  .area_items .item:hover a img {
-    transform: none;
-  }
   .area_items .item:nth-child(1) a img {
     scale: 1.3;
     object-position: center 15px;
@@ -315,9 +306,6 @@
   .area_items .item:nth-child(8) a img {
     scale: 1.1;
     object-position: 10% 0;
-  }
-  .area_items .item:hover a .gradient_layer {
-    opacity: 0.7;
   }
   .area_items .item a span {
     font-size: 1.1rem;
@@ -387,10 +375,6 @@
   .plane_items::-webkit-scrollbar,
   .hotel_items::-webkit-scrollbar {
     display: none;
-  }
-  .plane_items:hover,
-  .hotel_items:hover {
-    height: auto;
   }
   .plane_items .item a,
   .hotel_items .item a {
@@ -516,9 +500,6 @@
     order: 2;
     margin-bottom: 0;
   }
-  .car_items .item:hover a h4 {
-    color: inherit;
-  }
   .car_items .item a p {
     order: 1;
     font-size: 0.9rem;
@@ -563,18 +544,11 @@
     font-size: 0.95rem;
     transform: translateY(0);
   }
-  .email_form input[type=submit]:hover {
-    background-color: #0770e3;
-  }
   .email_privacy {
     font-size: 0.9rem;
     line-height: 1.5em;
     padding-left: 0;
     margin-top: 7px;
-  }
-  .email_privacy span:hover {
-    text-decoration: none;
-    color: #0770e3;
   }
 
   .info_faq {
@@ -713,9 +687,6 @@
   .language_modal_inner input[type=submit] {
     margin-top: 0;
     height: 50px;
-  }
-  .language_modal_inner input[type=submit]:hover {
-    background-color: #02122c;
   }
 
   /* Menu Modal */
