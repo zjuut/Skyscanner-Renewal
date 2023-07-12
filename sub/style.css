@@ -97,8 +97,10 @@ header.fixed {
   line-height: 80px;
   display: block;
 }
-.hd_left_wr .gnb ul li a:hover {
-  color: #0770e3;
+@media (hover: hover){
+  .hd_left_wr .gnb ul li a:hover {
+    color: #0770e3;
+  }  
 }
 
 .hd_right_wr {
@@ -108,10 +110,12 @@ header.fixed {
   color: #5e5e5e;
   padding: 10px 12px;
 }
-.hd_right_wr button:hover {
-  background-color: rgba(230, 230, 230, 0.7);
-  border-radius: 8px;
-  color: #222;
+@media (hover: hover){
+  .hd_right_wr button:hover {
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 8px;
+    color: #222;
+  }  
 }
 .hd_right_wr button i {
   font-size: 18px;
@@ -398,13 +402,15 @@ section.main .inner {
   margin-right: 6px;
   font-size: 18px;
 }
-.searchbox_setting .everywhere:hover,
-.searchbox_setting .all_area:hover {
-  border: 2px solid #0770e3;
-}
-.searchbox_setting .everywhere:hover button,
-.searchbox_setting .all_area:hover button {
-  color: #0770e3;
+@media (hover: hover){
+  .searchbox_setting .everywhere:hover,
+  .searchbox_setting .all_area:hover {
+    border: 2px solid #0770e3;
+  }
+  .searchbox_setting .everywhere:hover button,
+  .searchbox_setting .all_area:hover button {
+    color: #0770e3;
+  }
 }
 .searchbox_setting .area_arrive_modal .area_modal_btn {
   width: 100%;
@@ -431,8 +437,10 @@ section.main .inner {
   transform: translateY(4px);
   pointer-events: none;
 }
-.searchbox_setting .area_arrive_modal .everywhere:hover .everywhere_desc {
-  opacity: 1;
+@media (hover: hover){
+  .searchbox_setting .area_arrive_modal .everywhere:hover .everywhere_desc {
+    opacity: 1;
+  }  
 }
 .searchbox_setting .area_arrive_modal .everywhere_desc_tail {
   width: 10px;
@@ -491,11 +499,13 @@ section.main .inner {
   border-radius: 6px;
   margin-bottom: 20px;
 }
-.searchbox_setting .month_select_btn:hover {
-  border: 2px solid #0770e3;
-}
-.searchbox_setting .month_select_btn:hover button {
-  color: #0770e3;
+@media (hover: hover){
+  .searchbox_setting .month_select_btn:hover {
+    border: 2px solid #0770e3;
+  }
+  .searchbox_setting .month_select_btn:hover button {
+    color: #0770e3;
+  }  
 }
 .searchbox_setting .month_select_btn button {
   font-size: 16px;
@@ -587,11 +597,13 @@ section.main .inner {
   transform: translateY(2px);
   position: relative;
 }
-.searchbox_setting .countgroup .title i:hover {
-  color: #0770e3;
-}
-.searchbox_setting .countgroup .title i:hover .countgroup_desc {
-  display: block;
+@media (hover: hover){
+  .searchbox_setting .countgroup .title i:hover {
+    color: #0770e3;
+  }
+  .searchbox_setting .countgroup .title i:hover .countgroup_desc {
+    display: block;
+  }  
 }
 .searchbox_setting .countgroup_desc {
   display: none;
@@ -638,11 +650,13 @@ section.main .inner {
   border-radius: 50%;
   font-size: 15px;
 }
-.searchbox_setting .countgroup .count .minus:hover,
-.searchbox_setting .countgroup .count .plus:hover {
-  background-color: #0770e3;
-  border: 2px solid #0770e3;
-  color: #fff;
+@media (hover: hover){
+  .searchbox_setting .countgroup .count .minus:hover,
+  .searchbox_setting .countgroup .count .plus:hover {
+    background-color: #0770e3;
+    border: 2px solid #0770e3;
+    color: #fff;
+  }  
 }
 .searchbox_setting .countgroup .count .count_number {
   font-size: 20px;
@@ -710,8 +724,10 @@ section.main .inner {
   border-radius: 8px;
   color: #fff;
 }
-.searchbox_search input:hover {
-  background-color: #0862c2;
+@media (hover: hover){
+  .searchbox_search input:hover {
+    background-color: #0862c2;
+  }  
 }
 
   /* Section : Main : Sub */
@@ -810,8 +826,10 @@ section.plane_jeju {
   gap: 20px;
   transition: 0.6s;
 }
-.plane_items:hover {
-  height: 370px;
+@media (hover: hover){
+  .plane_items:hover {
+    height: 370px;
+  }  
 }
 .plane_items .item {
   width: 100%;
@@ -1023,8 +1041,10 @@ section.info .inner {
   background-color: #0770e3;
   color: #fff;
 }
-.email_form input[type=submit]:hover {
-  background-color: #0862c2
+@media (hover: hover){
+  .email_form input[type=submit]:hover {
+    background-color: #0862c2
+  }
 }
 .email_privacy {
   color: #7e7e7e;
@@ -1036,9 +1056,11 @@ section.info .inner {
   color: #0770e3;
   font-weight: 500;
 }
-.email_privacy span:hover {
-  text-decoration: underline;
-  color: #0862c2;
+@media (hover: hover){
+  .email_privacy span:hover {
+    text-decoration: underline;
+    color: #0862c2;
+  }  
 }
 
 .info_email_desc {
@@ -1124,9 +1146,11 @@ section.faq {
 .faq_list_desc p a {
   color: #0770e3;
 }
-.faq_list_desc p a:hover {
-  text-decoration: underline;
-  cursor: pointer;
+@media (hover: hover){
+  .faq_list_desc p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }  
 }
 
 /* Section : Popular Area */
@@ -1162,8 +1186,10 @@ section.popular_area {
   width: 25%;
   padding: 12px 0 12px 12px;
 }
-.popular_area_list ul li a:hover {
-  color: #0770e3;
+@media (hover: hover){
+  .popular_area_list ul li a:hover {
+    color: #0770e3;
+  }  
 }
 
 /* Footer */
@@ -1342,8 +1368,10 @@ footer {
   padding: 10px 0;
   margin-top: 10px;
 }
-.language_modal_inner input[type=submit]:hover {
-  background-color: #051f4b;
+@media (hover: hover){
+  .language_modal_inner input[type=submit]:hover {
+    background-color: #051f4b;
+  }  
 }
 
 /* Menu Modal */

@@ -228,9 +228,6 @@
     width: 100%;
     box-shadow: none;
   }
-  .searchbox_search input:hover {
-    background-color: #0770e3;
-  }
   
   /* Section : Main : Sub */
   .main_sub_inner {
@@ -306,9 +303,6 @@
   }
   .plane_items::-webkit-scrollbar {
     display: none;
-  }
-  .plane_items:hover {
-    height: auto;
   }
   .plane_items .item a {
     width: 326px;
@@ -436,18 +430,11 @@
     font-size: 0.95rem;
     transform: translateY(0);
   }
-  .email_form input[type=submit]:hover {
-    background-color: #0770e3;
-  }
   .email_privacy {
     font-size: 0.9rem;
     line-height: 1.5em;
     padding-left: 0;
     margin-top: 7px;
-  }
-  .email_privacy span:hover {
-    text-decoration: none;
-    color: #0770e3;
   }
 
   .info_email_desc {
@@ -516,9 +503,6 @@
     font-size: 0.95rem;
     line-height: 1.5em;
   }
-  .faq_list_desc p a:hover {
-    text-decoration: none;
-  }  
 
   /* Section : Popular Area */
   section.popular_area {
@@ -546,9 +530,6 @@
   .popular_area_list ul li {
     width: 50%;
   }
-  .popular_area_list ul li a:hover {
-    color: unset;
-  }  
 
   /* Footer */
   footer {
@@ -652,9 +633,6 @@
   .language_modal_inner input[type=submit] {
     margin-top: 0;
     height: 50px;
-  }
-  .language_modal_inner input[type=submit]:hover {
-    background-color: #02122c;
   }
 
   /* Menu Modal */
