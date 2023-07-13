@@ -139,10 +139,11 @@ section.main {
 }
 section.main .inner {
   position: relative;
-  width: 100%;
+  min-width: 1280px;
   height: 800px;
   background: url(images/main-bg.jpg) no-repeat top left;
   background-size: 115%;
+  
 }
 .bg_gradient_layer {
   position: absolute;
