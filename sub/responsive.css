@@ -63,6 +63,7 @@
   background: #f5f7fa;
   }
   section.main .inner {
+    min-width: 100%;
     height: auto;
     background: none;
     padding: 90px 20px 0 20px;
